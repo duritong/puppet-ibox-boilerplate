@@ -1,0 +1,150 @@
+[submodule "modules/public/stdlib"]
+	path = modules/public/stdlib
+	url = https://git-ipuppet.immerda.ch/module-stdlib
+[submodule "modules/public/yum"]
+	path = modules/public/yum
+	url = https://git-ipuppet.immerda.ch/module-yum
+[submodule "modules/public/concat"]
+	path = modules/public/concat
+	url = https://git-ipuppet.immerda.ch/module-concat
+[submodule "modules/public/which"]
+	path = modules/public/which
+	url = https://git-ipuppet.immerda.ch/module-which
+[submodule "modules/public/screen"]
+	path = modules/public/screen
+	url = https://git-ipuppet.immerda.ch/module-screen
+[submodule "modules/public/tmux"]
+	path = modules/public/tmux
+	url = https://git-ipuppet.immerda.ch/module-tmux
+[submodule "modules/public/bash"]
+	path = modules/public/bash
+	url = https://git-ipuppet.immerda.ch/module-bash
+[submodule "modules/public/crypto"]
+	path = modules/public/crypto
+	url = https://git-ipuppet.immerda.ch/module-crypto
+[submodule "modules/public/tar"]
+	path = modules/public/tar
+	url = https://git-ipuppet.immerda.ch/module-tar
+[submodule "modules/public/motd"]
+	path = modules/public/motd
+	url = https://git-ipuppet.immerda.ch/module-motd
+[submodule "modules/public/ibp"]
+	path = modules/public/ibp
+	url = https://git-ipuppet.immerda.ch/module-ibp
+[submodule "modules/public/virt"]
+	path = modules/public/virt
+	url = https://git-ipuppet.immerda.ch/module-virt
+[submodule "modules/public/ssmtp"]
+	path = modules/public/ssmtp
+	url = https://git-ipuppet.immerda.ch/module-ssmtp
+[submodule "modules/public/exim"]
+	path = modules/public/exim
+	url = https://git-ipuppet.immerda.ch/module-exim
+[submodule "modules/public/sendmail"]
+	path = modules/public/sendmail
+	url = https://git-ipuppet.immerda.ch/module-sendmail
+[submodule "modules/public/postfix"]
+	path = modules/public/postfix
+	url = https://git-ipuppet.immerda.ch/module-postfix
+[submodule "modules/public/sudo"]
+	path = modules/public/sudo
+	url = https://git-ipuppet.immerda.ch/module-sudo
+[submodule "modules/public/shorewall"]
+	path = modules/public/shorewall
+	url = https://git-ipuppet.immerda.ch/module-shorewall
+[submodule "modules/public/sshd"]
+	path = modules/public/sshd
+	url = https://git-ipuppet.immerda.ch/module-sshd
+[submodule "modules/public/puppet"]
+	path = modules/public/puppet
+	url = https://git-ipuppet.immerda.ch/module-puppet
+[submodule "modules/public/logwatch"]
+	path = modules/public/logwatch
+	url = https://git-ipuppet.immerda.ch/module-logwatch
+[submodule "modules/public/munin"]
+	path = modules/public/munin
+	url = https://git-ipuppet.immerda.ch/module-munin
+[submodule "modules/public/vim"]
+	path = modules/public/vim
+	url = https://git-ipuppet.immerda.ch/module-vim
+[submodule "modules/public/sysctl"]
+	path = modules/public/sysctl
+	url = https://git-ipuppet.immerda.ch/module-sysctl
+[submodule "modules/public/fwtools"]
+	path = modules/public/fwtools
+	url = https://git-ipuppet.immerda.ch/module-fwtools
+[submodule "modules/public/gpm"]
+	path = modules/public/gpm
+	url = https://git-ipuppet.immerda.ch/module-gpm
+[submodule "modules/public/logrotate"]
+	path = modules/public/logrotate
+	url = https://git-ipuppet.immerda.ch/module-logrotate
+[submodule "modules/public/lsb"]
+	path = modules/public/lsb
+	url = https://git-ipuppet.immerda.ch/module-lsb
+[submodule "modules/public/mc"]
+	path = modules/public/mc
+	url = https://git-ipuppet.immerda.ch/module-mc
+[submodule "modules/public/grub"]
+	path = modules/public/grub
+	url = https://git-ipuppet.immerda.ch/module-grub
+[submodule "modules/public/cron_splay"]
+	path = modules/public/cron_splay
+	url = https://git-ipuppet.immerda.ch/module-cron_splay
+[submodule "modules/public/rkhunter"]
+	path = modules/public/rkhunter
+	url = https://git-ipuppet.immerda.ch/module-rkhunter
+[submodule "modules/public/denyhosts"]
+	path = modules/public/denyhosts
+	url = https://git-ipuppet.immerda.ch/module-denyhosts
+[submodule "modules/public/mlocate"]
+	path = modules/public/mlocate
+	url = https://git-ipuppet.immerda.ch/module-mlocate
+[submodule "modules/public/selinux"]
+	path = modules/public/selinux
+	url = https://git-ipuppet.immerda.ch/module-selinux
+[submodule "modules/public/smartd"]
+	path = modules/public/smartd
+	url = https://git-ipuppet.immerda.ch/module-smartd
+[submodule "modules/public/mdadm"]
+	path = modules/public/mdadm
+	url = https://git-ipuppet.immerda.ch/module-mdadm
+[submodule "modules/public/rubygems"]
+	path = modules/public/rubygems
+	url = https://git-ipuppet.immerda.ch/module-rubygems
+[submodule "modules/ibox"]
+	path = modules/ibox
+	url = https://git-ipuppet.immerda.ch/ibox-modules.git
+[submodule "modules/public/certs"]
+	path = modules/public/certs
+	url = https://git-ipuppet.immerda.ch/module-certs.git
+[submodule "modules/public/resolvconf"]
+	path = modules/public/resolvconf
+	url = https://git-ipuppet.immerda.ch/module-resolvconf.git
+[submodule "modules/public/acpid"]
+	path = modules/public/acpid
+	url = https://git-ipuppet.immerda.ch/module-acpid.git
+[submodule "modules/public/hal"]
+	path = modules/public/hal
+	url = https://git-ipuppet.immerda.ch/module-hal.git
+[submodule "modules/public/haved"]
+	path = modules/public/haveged
+	url = https://git-ipuppet.immerda.ch/module-haveged.git
+[submodule "modules/public/rsyslog"]
+	path = modules/public/rsyslog
+	url = https://git-ipuppet.immerda.ch/module-rsyslog.git
+[submodule "modules/public/authconfig"]
+	path = modules/public/authconfig
+	url = https://git-ipuppet.immerda.ch/module-authconfig.git
+[submodule "modules/public/etc_updates"]
+	path = modules/public/etc_updates
+	url = https://git-ipuppet.immerda.ch/module-etc_updates.git
+[submodule "modules/public/dbus"]
+	path = modules/public/dbus
+	url = https://git-ipuppet.immerda.ch/module-dbus.git
+[submodule "modules/public/abrt"]
+	path = modules/public/abrt
+	url = https://git-ipuppet.immerda.ch/module-abrt.git
+[submodule "modules/public/kexec_tools"]
+	path = modules/public/kexec_tools
+	url = https://git-ipuppet.immerda.ch/module-kexec_tools.git
