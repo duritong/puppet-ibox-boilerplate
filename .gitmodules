@@ -148,3 +148,24 @@
 [submodule "modules/public/kexec_tools"]
 	path = modules/public/kexec_tools
 	url = https://git-ipuppet.immerda.ch/module-kexec_tools.git
+[submodule "modules/public/kudzu"]
+	path = modules/public/kudzu
+	url = https://git-ipuppet.immerda.ch/module-kudzu.git
+[submodule "modules/public/readahead"]
+	path = modules/public/readahead
+	url = https://git-ipuppet.immerda.ch/module-readahead.git
+[submodule "modules/public/avahi"]
+	path = modules/public/avahi
+	url = https://git-ipuppet.immerda.ch/module-avahi.git
+[submodule "modules/public/autofs"]
+	path = modules/public/autofs
+	url = https://git-ipuppet.immerda.ch/module-autofs.git
+[submodule "modules/public/iscsi"]
+	path = modules/public/iscsi
+	url = https://git-ipuppet.immerda.ch/module-iscsi.git
+[submodule "modules/public/syslog"]
+	path = modules/public/syslog
+	url = https://git-ipuppet.immerda.ch/module-syslog.git
+[submodule "modules/public/cups"]
+	path = modules/public/cups
+	url = https://git-ipuppet.immerda.ch/module-cups.git
