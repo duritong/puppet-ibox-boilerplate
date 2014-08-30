@@ -169,3 +169,9 @@
 [submodule "modules/public/cups"]
 	path = modules/public/cups
 	url = https://git-ipuppet.immerda.ch/module-cups.git
+[submodule "modules/public/chrony"]
+	path = modules/public/chrony
+	url = https://git-ipuppet.immerda.ch/module-chrony.git
+[submodule "modules/public/ntp"]
+	path = modules/public/ntp
+	url = https://git-ipuppet.immerda.ch/module-ntp.git
