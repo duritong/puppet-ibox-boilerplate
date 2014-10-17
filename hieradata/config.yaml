@@ -6,6 +6,7 @@
   - hosts/%{fqdn}
   - node_types/%{node_type}
   - locations/%{location}
+  - vagrant
   - defaults
 :yaml:
    :datadir: /etc/puppet/ibox/hieradata

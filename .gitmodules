@@ -175,3 +175,9 @@
 [submodule "modules/public/ntp"]
 	path = modules/public/ntp
 	url = https://git-ipuppet.immerda.ch/module-ntp.git
+[submodule "modules/public/keepalived"]
+	path = modules/public/keepalived
+	url = https://git-ipuppet.immerda.ch/module-keepalived.git
+[submodule "modules/public/conntrackd"]
+	path = modules/public/conntrackd
+	url = https://git-ipuppet.immerda.ch/module-conntrackd.git
