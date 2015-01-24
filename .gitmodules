@@ -181,3 +181,24 @@
 [submodule "modules/public/conntrackd"]
 	path = modules/public/conntrackd
 	url = https://git-ipuppet.immerda.ch/module-conntrackd.git
+[submodule "modules/public/trocla"]
+	path = modules/public/trocla
+	url = https://git-ipuppet.immerda.ch/module-trocla
+[submodule "modules/public/ruby"]
+	path = modules/public/ruby
+	url = https://git-ipuppet.immerda.ch/module-ruby
+[submodule "modules/public/mysql"]
+	path = modules/public/mysql
+	url = https://git-ipuppet.immerda.ch/module-mysql
+[submodule "modules/public/postgres"]
+	path = modules/public/postgres
+	url = https://git-ipuppet.immerda.ch/module-postgres
+[submodule "modules/public/limits"]
+	path = modules/public/limits
+	url = https://git-ipuppet.immerda.ch/module-limits
+[submodule "modules/public/disks"]
+	path = modules/public/disks
+	url = https://git-ipuppet.immerda.ch/module-disks
+[submodule "modules/public/lvm"]
+	path = modules/public/lvm
+	url = https://git-ipuppet.immerda.ch/module-lvm
