@@ -1,0 +1,15 @@
+---
+# we have a shared ip on the default interface
+sshd::shared_ip: true
+
+# database servers
+#ibox::types: ['dbserver']
+#ib_postgres::server::admin_users:
+#  'test2': {}
+#ib_postgres::server::default_databases:
+#  'test': {}
+#ib_mysql::server::admin_users:
+#  'user1': {}
+#ib_mysql::server::default_databases:
+#  'testdb1': {}
+#  'testdb2': {}
