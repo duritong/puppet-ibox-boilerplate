@@ -204,7 +204,7 @@
 	url = https://git-ipuppet.immerda.ch/module-lvm
 [submodule "modules/public/redis"]
 	path = modules/public/redis
-	url = http://git-ipuppet.immerda.ch/module-redis.git
+	url = https://git-ipuppet.immerda.ch/module-redis.git
 [submodule "modules/public/redis_instance"]
 	path = modules/public/redis_instance
-	url = http://git-ipuppet.immerda.ch/module-redis_instance.git
+	url = https://git-ipuppet.immerda.ch/module-redis_instance.git

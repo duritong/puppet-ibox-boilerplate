@@ -2,14 +2,18 @@
 
 base=$(readlink -f $(dirname $(dirname $0)))
 
-pushd $base/modules/ibox > /dev/null
-git checkout master
-git pull
-popd > /dev/null
-
-for m in modules/public/*; do
+function update_module {
+  m=$1
   pushd $m > /dev/null
-  git checkout master
-  git pull
+  echo $(basename $m)
+  branch=$(git status | grep -E '^On branch' | sed 's/^On branch //')
+  if [ "${branch}" != "master" ]; then
+    git checkout master
+  fi
+  git pull -q
   popd > /dev/null
+}
+
+for m in $base/modules/ibox modules/ibox modules/public/*; do
+  update_module $m
 done
