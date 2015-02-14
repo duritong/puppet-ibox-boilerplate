@@ -14,6 +14,6 @@ function update_module {
   popd > /dev/null
 }
 
-for m in $base/modules/ibox modules/ibox modules/public/*; do
+for m in $base/modules/ibox $base/modules/public/*; do
   update_module $m
 done
