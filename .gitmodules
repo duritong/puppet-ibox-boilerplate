@@ -208,3 +208,12 @@
 [submodule "modules/public/redis_instance"]
 	path = modules/public/redis_instance
 	url = https://git-ipuppet.immerda.ch/module-redis_instance.git
+[submodule "modules/public/dovecot"]
+	path = modules/public/dovecot
+	url = https://git-ipuppet.immerda.ch/module-dovecot.git
+[submodule "modules/public/rpmkey"]
+	path = modules/public/rpmkey
+	url = https://git-ipuppet.immerda.ch/module-rpmkey.git
+[submodule "modules/public/nagios"]
+	path = modules/public/nagios
+	url = https://git-ipuppet.immerda.ch/module-nagios.git
