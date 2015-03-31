@@ -217,3 +217,39 @@
 [submodule "modules/public/nagios"]
 	path = modules/public/nagios
 	url = https://git-ipuppet.immerda.ch/module-nagios.git
+[submodule "modules/public/amavisd_new"]
+	path = modules/public/amavisd_new
+	url = https://git-ipuppet.immerda.ch/module-amavisd_new.git
+[submodule "modules/public/clamav"]
+	path = modules/public/clamav
+	url = https://git-ipuppet.immerda.ch/module-clamav.git
+[submodule "modules/public/spamassassin"]
+	path = modules/public/spamassassin
+	url = https://git-ipuppet.immerda.ch/module-spamassassin.git
+[submodule "modules/public/exim_imap_auth"]
+	path = modules/public/exim_imap_auth
+	url = https://git-ipuppet.immerda.ch/module-exim_imap_auth.git
+[submodule "modules/public/cdb"]
+	path = modules/public/cdb
+	url = https://git-ipuppet.immerda.ch/module-cdb.git
+[submodule "modules/public/alternatives"]
+	path = modules/public/alternatives
+	url = https://git-ipuppet.immerda.ch/module-alternatives.git
+[submodule "modules/public/pyzor"]
+	path = modules/public/pyzor
+	url = https://git-ipuppet.immerda.ch/module-pyzor.git
+[submodule "modules/public/gpg"]
+	path = modules/public/gpg
+	url = https://git-ipuppet.immerda.ch/module-gpg.git
+[submodule "modules/public/unzip"]
+	path = modules/public/unzip
+	url = https://git-ipuppet.immerda.ch/module-unzip.git
+[submodule "modules/public/unrar"]
+	path = modules/public/unrar
+	url = https://git-ipuppet.immerda.ch/module-unrar.git
+[submodule "modules/public/file_content"]
+	path = modules/public/file_content
+	url = https://git-ipuppet.immerda.ch/module-file_content.git
+[submodule "modules/public/systemd"]
+	path = modules/public/systemd
+	url = https://git-ipuppet.immerda.ch/module-systemd.git
