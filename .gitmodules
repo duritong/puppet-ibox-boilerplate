@@ -253,3 +253,12 @@
 [submodule "modules/public/systemd"]
 	path = modules/public/systemd
 	url = https://git-ipuppet.immerda.ch/module-systemd.git
+[submodule "modules/public/restartmonkey"]
+	path = modules/public/restartmonkey
+	url = https://git-ipuppet.immerda.ch/module-restartmonkey
+[submodule "modules/public/dovecot_iauth"]
+	path = modules/public/dovecot_iauth
+	url = https://git-ipuppet.immerda.ch/module-dovecot_iauth
+[submodule "modules/public/extlib"]
+	path = modules/public/extlib
+	url = https://git-ipuppet.immerda.ch/module-extlib.git

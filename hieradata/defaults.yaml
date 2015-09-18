@@ -1,2 +1,6 @@
 ---
 ibox::use_shorewall: true
+
+trocla::master::provider: yum
+trocla::config::adapter_options:
+  'file': '/var/lib/trocla/trocla_data.yaml'
