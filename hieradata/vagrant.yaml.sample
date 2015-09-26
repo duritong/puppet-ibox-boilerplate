@@ -23,3 +23,13 @@ sshd::shared_ip: true
 #  dbuser: dovecot
 #  dbpwd: supersecret
 #  query: "SELECT NULL AS password, storagehost AS host, alias||'@'||domain AS destuser, 'Y' AS nologin, 'Y' AS nodelay, 'Y' AS proxy, 'Y' as nopassword FROM email_users WHERE alias = lower('%n') AND domain = lower('%d') AND deleted_at IS NULL AND ismailbox=1"
+
+# mailstorage
+#ibox::types: ['mailstorage']
+#ib_dovecot::storage::sql_config:
+#  dbhost: dbhost
+#  dbname: maildb
+#  dbloginuser: dovecot_update
+#  dbloginpwd: supersecret1
+#  dbexpireuser: dovecot_expire
+#  dbexpirepwd:  supersecret2
