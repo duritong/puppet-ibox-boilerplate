@@ -262,3 +262,9 @@
 [submodule "modules/public/extlib"]
 	path = modules/public/extlib
 	url = https://git-ipuppet.immerda.ch/module-extlib.git
+[submodule "modules/public/nsd"]
+	path = modules/public/nsd
+	url = https://git-ipuppet.immerda.ch/module-nsd.git
+[submodule "modules/public/unbound"]
+	path = modules/public/unbound
+	url = https://git-ipuppet.immerda.ch/module-unbound.git
