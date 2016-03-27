@@ -271,3 +271,21 @@
 [submodule "modules/bind"]
 	path = modules/public/bind
 	url = https://mh@git-ipuppet.immerda.ch/module-bind.git
+[submodule "modules/public/apache"]
+	path = modules/public/apache
+	url = https://git-ipuppet.immerda.ch/module-apache
+[submodule "modules/public/webhosting"]
+	path = modules/public/webhosting
+	url = https://git-ipuppet.immerda.ch/module-webhosting
+[submodule "modules/public/templatewlv"]
+	path = modules/public/templatewlv
+	url = https://git-ipuppet.immerda.ch/module-templatewlv
+[submodule "modules/public/mod_removeip"]
+	path = modules/public/mod_removeip
+	url = https://git-ipuppet.immerda.ch/module-mod_removeip
+[submodule "modules/public/puppetdb"]
+	path = modules/public/puppetdb
+	url = https://git-ipuppet.immerda.ch/module-puppetdb
+[submodule "modules/public/inifile"]
+	path = modules/public/inifile
+	url = https://git-ipuppet.immerda.ch/module-inifile.git

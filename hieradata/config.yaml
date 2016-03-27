@@ -1,6 +1,7 @@
 ---
 :backends:
   - yaml
+  - trocla
 
 :hierarchy:
   - hosts/%{fqdn}
@@ -10,4 +11,5 @@
   - defaults
 :yaml:
    :datadir: /etc/puppet/ibox/hieradata
-
+:trocla:
+  :config: /etc/puppet/troclarc.yaml
