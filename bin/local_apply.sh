@@ -53,9 +53,10 @@ apply:
     cache: puppetdb_apply
 ',
 }
-include motd::puppetmaster
-include trocla::yaml
-include trocla::master::hiera
+include ::motd::puppetmaster
+include ::trocla::yaml
+include ::trocla::master::hiera
+include ::iuid::config
 EOF
 fi
 
