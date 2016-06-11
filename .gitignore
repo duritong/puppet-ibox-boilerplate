@@ -1,2 +1,3 @@
 hieradata/vagrant.yaml
 storeconfigs.sqlite3
+modules/public/site_*

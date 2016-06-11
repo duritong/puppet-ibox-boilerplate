@@ -289,3 +289,57 @@
 [submodule "modules/public/inifile"]
 	path = modules/public/inifile
 	url = https://git-ipuppet.immerda.ch/module-inifile.git
+[submodule "modules/public/php"]
+	path = modules/public/php
+	url = https://git-ipuppet.immerda.ch/module-php
+[submodule "modules/public/perl"]
+	path = modules/public/perl
+	url = https://git-ipuppet.immerda.ch/module-perl
+[submodule "modules/public/gcc"]
+	path = modules/public/gcc
+	url = https://git-ipuppet.immerda.ch/module-gcc
+[submodule "modules/public/mod_fcgid"]
+	path = modules/public/mod_fcgid
+	url = https://git-ipuppet.immerda.ch/module-mod_fcgid
+[submodule "modules/public/imagemagick"]
+	path = modules/public/imagemagick
+	url = https://git-ipuppet.immerda.ch/module-imagemagick
+[submodule "modules/public/git"]
+	path = modules/public/git
+	url = https://git-ipuppet.immerda.ch/module-git
+[submodule "modules/public/user"]
+	path = modules/public/user
+	url = https://git-ipuppet.immerda.ch/module-user.git
+[submodule "modules/public/mod_security"]
+	path = modules/public/mod_security
+	url = https://git-ipuppet.immerda.ch/module-mod_security.git
+[submodule "modules/public/iuid"]
+	path = modules/public/iuid
+	url = https://git-ipuppet.immerda.ch/module-iuid.git
+[submodule "modules/public/incron"]
+	path = modules/public/incron
+	url = https://git-ipuppet.immerda.ch/module-incron.git
+[submodule "modules/public/acl"]
+	path = modules/public/acl
+	url = https://git-ipuppet.immerda.ch/module-acl.git
+[submodule "modules/public/wordpress"]
+	path = modules/public/wordpress
+	url = https://git-ipuppet.immerda.ch/module-wordpress.git
+[submodule "modules/public/scl"]
+	path = modules/public/scl
+	url = https://git-ipuppet.immerda.ch/module-scl.git
+[submodule "modules/public/mediawiki"]
+	path = modules/public/mediawiki
+	url = https://git-ipuppet.immerda.ch/module-mediawiki.git
+[submodule "modules/public/ocaml"]
+	path = modules/public/ocaml
+	url = https://git-ipuppet.immerda.ch/module-ocaml.git
+[submodule "modules/public/tetex"]
+	path = modules/public/tetex
+	url = https://git-ipuppet.immerda.ch/module-tetex.git
+[submodule "modules/public/phpmyadmin"]
+	path = modules/public/phpmyadmin
+	url = https://git-ipuppet.immerda.ch/module-phpmyadmin.git
+[submodule "modules/public/phppgadmin"]
+	path = modules/public/phppgadmin
+	url = https://git-ipuppet.immerda.ch/module-phppgadmin.git
