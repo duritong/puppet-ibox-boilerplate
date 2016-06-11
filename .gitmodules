@@ -270,7 +270,7 @@
 	url = https://git-ipuppet.immerda.ch/module-unbound.git
 [submodule "modules/bind"]
 	path = modules/public/bind
-	url = https://mh@git-ipuppet.immerda.ch/module-bind.git
+	url = https://git-ipuppet.immerda.ch/module-bind.git
 [submodule "modules/public/apache"]
 	path = modules/public/apache
 	url = https://git-ipuppet.immerda.ch/module-apache
