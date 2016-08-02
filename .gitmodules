@@ -343,3 +343,9 @@
 [submodule "modules/public/phppgadmin"]
 	path = modules/public/phppgadmin
 	url = https://git-ipuppet.immerda.ch/module-phppgadmin.git
+[submodule "modules/public/nginx"]
+	path = modules/public/nginx
+	url = https://git-ipuppet.immerda.ch/module-nginx.git
+[submodule "modules/public/varnish"]
+	path = modules/public/varnish
+	url = https://git-ipuppet.immerda.ch/module-varnish.git
