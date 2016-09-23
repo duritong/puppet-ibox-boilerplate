@@ -349,3 +349,12 @@
 [submodule "modules/public/varnish"]
 	path = modules/public/varnish
 	url = https://git-ipuppet.immerda.ch/module-varnish.git
+[submodule "modules/public/ibackup"]
+	path = modules/public/ibackup
+	url = https://git-ipuppet.immerda.ch/module-ibackup.git
+[submodule "modules/public/tor"]
+	path = modules/public/tor
+	url = https://git-ipuppet.immerda.ch/module-tor.git
+[submodule "modules/public/haproxy"]
+	path = modules/public/haproxy
+	url = https://git-ipuppet.immerda.ch/module-haproxy.git
