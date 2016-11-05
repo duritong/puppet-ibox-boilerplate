@@ -53,6 +53,7 @@ apply:
     cache: puppetdb_apply
 ',
 }
+ensure_packages(['rubygem-base32'])
 include ::motd::puppetmaster
 include ::trocla::yaml
 include ::trocla::master::hiera

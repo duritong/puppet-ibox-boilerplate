@@ -358,3 +358,6 @@
 [submodule "modules/public/haproxy"]
 	path = modules/public/haproxy
 	url = https://git-ipuppet.immerda.ch/module-haproxy.git
+[submodule "modules/public/tinc"]
+	path = modules/public/tinc
+	url = https://git-ipuppet.immerda.ch/module-tinc
