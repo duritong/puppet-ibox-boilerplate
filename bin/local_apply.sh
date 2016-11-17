@@ -24,7 +24,7 @@ fi
 if [ ! -d /var/lib/puppetdb ]; then
   [ -f /etc/yum.repos.d/puppetlabs.repo ] || rpm -Uvh http://yum.puppetlabs.com/el/7/products/x86_64/puppetlabs-release-7-11.noarch.rpm
   # setup puppetdb & other things for local apply
-  puppet apply --parser=future --hiera_config=/etc/puppet/ibox/hieradata/config.yaml --modulepath=/etc/puppet/ibox/modules/public/:/ec/puppet/ibox/modules/ibox/ <<EOF | tee -a /var/log/ibox.log
+  puppet apply --parser=future --hiera_config=/etc/puppet/ibox/hieradata/config.yaml --modulepath=/etc/puppet/ibox/modules/public/:/etc/puppet/ibox/modules/ibox/ <<EOF | tee -a /var/log/ibox.log
 Exec { path => '/sbin:/usr/bin:/usr/sbin:/bin:/usr/local/bin:/usr/local/sbin', }
 exec{'generate_certs':
   command => 'puppet master --masterport 8141; sleep 10; kill \`cat /var/run/puppet/master.pid\`',
