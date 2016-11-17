@@ -4,6 +4,7 @@
 grep -q 'when /virtualbox/i' /usr/share/ruby/vendor_ruby/facter/virtual.rb
 if [ $? -gt 0 ]; then
  pushd /
+ rpm -qi patch > /dev/null || puppet resource package patch ensure=installed
  patch -p 0 <<END
 --- /usr/share/ruby/vendor_ruby/facter/virtual.rb_old 2015-12-21 17:42:05.909487491 +0100
 +++ /usr/share/ruby/vendor_ruby/facter/virtual.rb 2015-12-21 17:40:43.533994750 +0100
