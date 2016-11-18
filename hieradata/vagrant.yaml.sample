@@ -2,6 +2,21 @@
 # we have a shared ip on the default interface
 sshd::shared_ip: true
 
+# default options for all vagrant boxes
+ibox::root_password: "%{hiera('trocla_hierarchy::sha512crypt::root_password')}"
+# show how you can expire the root password
+trocla_options::root_password:
+  sha512crypt:
+    profiles:
+      - rootpw
+    expires: 5184000
+
+# setup all the iuid stuff
+iuid::config::categories:
+  gitolite: 10000
+  webhosting: 20000
+  sftp_backup: 110000
+
 # database servers
 #ibox::types: ['dbserver']
 #ib_postgres::server::admin_users:
@@ -33,3 +48,84 @@ sshd::shared_ip: true
 #  dbloginpwd: supersecret1
 #  dbexpireuser: dovecot_expire
 #  dbexpirepwd:  supersecret2
+
+
+# a webhosting type with mysql
+# to illustrate we also install a bunch of hostings
+#ibox::types: ['webhosting','dbserver']
+# we don't need postgres here
+#ibox::types::dbserver::is_postgres_server: false
+# let's get some space for the webhostings
+#ib_disks::datavgs::www::size_data: 12G
+# let's make sure our hostings can login
+# over ssh but only using sftp and are chrooted
+#sshd::sftp_subsystem: 'internal-sftp'
+#sshd::allowed_groups: 'root sftponly'
+#sshd::use_pam: 'yes'
+#sshd::hardened: '+sha1'
+#sshd::tail_additional_options: |
+#  Match Group root
+#         PasswordAuthentication no
+#  
+#  Match Group sftponly
+#         PasswordAuthentication yes
+#         ChrootDirectory %h
+#         ForceCommand internal-sftp
+#         AllowTcpForwarding no
+# the databases we need
+#ib_mysql::server::default_databases:
+#  'wp_test': {}
+#  'wiki_test': {}
+#  'smf_test': {}
+# setup a wordpress hosting fully automatic
+# mind the database above
+#ib_webhosting::hostings::wordpress:
+#  'wp.ibox-one.local':
+#    blog_options:
+#      dbname: 'wp_test'
+#      adminemail: 'admin@ibox.local'
+# setup a mediawiki fully automatic
+# mind again the database above
+#ib_webhosting::hostings::mediawiki:
+#  'mw.ibox-one.local':
+#    db_name: 'wiki_test'
+#    contact: 'admin@ibox.local'
+#    sitename: 'mw'
+#    db_server: '127.0.0.1'
+# install a smf hosting, ready to be clicked
+# throught the webinstaller
+#ib_webhosting::hostings::simplemachine:
+#  'smf.ibox-one.local': {}
+# setup all diffrent kind of php hostings, either using
+# the system php installation or scl installations
+#ib_webhosting::hostings::php:
+##  'php.ibox-one.local':
+##    git_repo: 'https://github.com/sektioneins/pcc'
+##  'php54.ibox-one.local':
+##    git_repo: 'https://github.com/sektioneins/pcc'
+##    php_installation: "scl54"
+##  'php55.ibox-one.local':
+##    git_repo: 'https://github.com/sektioneins/pcc'
+##    php_installation: "scl55"
+#  'php56.ibox-one.local':
+#    git_repo: 'https://github.com/sektioneins/pcc'
+#    php_installation: "scl56"
+
+# webservices
+#ibox::types: ['webservices',]
+#ib_apache::services::webhtpasswd::htpasswd_name: 'ht.ibox-one.local'
+# get a coquelicot up and running
+#ib_apache::services::coquelicot::instances:
+#  'dl.ibox-one.local': {}
+
+# install dbserver and php(My|Pg)Admin for it
+#ibox::types: ['webservices','dbserver']
+#ib_apache::services::myadmin::myadmin_host: 'my.ibox-one.local'
+#ib_apache::services::myadmin::pgadmin_host: 'pg.ibox-one.local'
+
+#ibox::types: ['onion_service']
+#ib_tor::onion::services:
+#  "%{hostname}":
+#    '22': {}
+#  "http_%{hostname}":
+#    '80': {}
