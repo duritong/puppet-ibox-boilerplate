@@ -361,3 +361,9 @@
 [submodule "modules/public/tinc"]
 	path = modules/public/tinc
 	url = https://git-ipuppet.immerda.ch/module-tinc
+[submodule "modules/public/archive"]
+	path = modules/public/archive
+	url = https://git-ipuppet.immerda.ch/module-archive.git
+[submodule "modules/public/tmpwatch"]
+	path = modules/public/tmpwatch
+	url = https://git-ipuppet.immerda.ch/module-tmpwatch.git

@@ -77,6 +77,18 @@ iuid::config::categories:
 #  'wp_test': {}
 #  'wiki_test': {}
 #  'smf_test': {}
+#ib_webhosting::hostings::php:
+##  'php.ibox-one.local':
+##    git_repo: 'https://github.com/sektioneins/pcc'
+##  'php54.ibox-one.local':
+##    git_repo: 'https://github.com/sektioneins/pcc'
+##    php_installation: "scl54"
+##  'php55.ibox-one.local':
+##    git_repo: 'https://github.com/sektioneins/pcc'
+##    php_installation: "scl55"
+#  'php56.ibox-one.local':
+#    git_repo: 'https://github.com/sektioneins/pcc'
+#    php_installation: "scl56"
 # setup a wordpress hosting fully automatic
 # mind the database above
 #ib_webhosting::hostings::wordpress:
@@ -93,23 +105,11 @@ iuid::config::categories:
 #    sitename: 'mw'
 #    db_server: '127.0.0.1'
 # install a smf hosting, ready to be clicked
-# throught the webinstaller
+# through the webinstaller
 #ib_webhosting::hostings::simplemachine:
 #  'smf.ibox-one.local': {}
 # setup all diffrent kind of php hostings, either using
 # the system php installation or scl installations
-#ib_webhosting::hostings::php:
-##  'php.ibox-one.local':
-##    git_repo: 'https://github.com/sektioneins/pcc'
-##  'php54.ibox-one.local':
-##    git_repo: 'https://github.com/sektioneins/pcc'
-##    php_installation: "scl54"
-##  'php55.ibox-one.local':
-##    git_repo: 'https://github.com/sektioneins/pcc'
-##    php_installation: "scl55"
-#  'php56.ibox-one.local':
-#    git_repo: 'https://github.com/sektioneins/pcc'
-#    php_installation: "scl56"
 
 # webservices
 #ibox::types: ['webservices',]
