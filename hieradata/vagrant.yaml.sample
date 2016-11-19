@@ -77,6 +77,11 @@ iuid::config::categories:
 #  'wp_test': {}
 #  'wiki_test': {}
 #  'smf_test': {}
+# set the suhosin key to a random key from trocla
+php::suhosin_cryptkey: "%{hiera('trocla_lookup::plain::php_suhosin_cryptkey')}"
+trocla_options::php_suhosin_cryptkey:
+  plain:
+    length: 32
 #ib_webhosting::hostings::php:
 ##  'php.ibox-one.local':
 ##    git_repo: 'https://github.com/sektioneins/pcc'
